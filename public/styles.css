@@ -1,0 +1,23 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+  color: #eeeeee;
+  padding: 10px;
+}
+
+h2 {
+  font-size: small;
+  font-family: "Chilanka", cursive;
+  color: #eeeeee;
+  padding: 10px;
+}
+
+p {
+  font-family: "Chilanka", cursive;
+  color: #eeeeee;
+  font-size: 22px;
+  padding: 10px;
+}
+
+#root {
+  background-color: black;
+}
