@@ -28,8 +28,7 @@ export default function Header() {
               <div className='planetText'>
                 <p>
                   Full-Stack trained, I always believe in knowing all aspects of
-                  a process, currently working as a free-lancer , building web
-                  apps and sites for different businesses.
+                  a process.
                 </p>
               </div>
             </div>
@@ -50,7 +49,7 @@ export default function Header() {
               <div className='planetText'>
                 <p>
                   Self-taught and always looking for the next project ahead and
-                  be a part of a great idea!
+                  to be a part of the next great idea!
                 </p>
               </div>
             </div>
