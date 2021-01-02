@@ -14,7 +14,7 @@ export default function Header() {
           friendship.
         </p>
       </div>
-      <div className='planetsContainer'>
+      <div>
         <div className='row planetsDiv'>
           <div className='col text-center'>
             <button
@@ -22,7 +22,7 @@ export default function Header() {
               data-toggle='collapse'
               data-target='#firstPlanet'
             >
-              <img className='' src='images/planet.png' alt='jupiter' />
+              <img src='images/planet.png' alt='jupiter' />
             </button>
             <div className='collapse' id='firstPlanet'>
               <div className='planetText'>
@@ -33,15 +33,19 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className='col text-center'>
+          <div className='col text-center '>
             <button
-              className='btn planets'
+              className='btn planets '
               data-toggle='collapse'
               data-target='#secondPlanet'
             >
-              <img src='images/planet2.png' alt='planet(2)' />
+              <img
+                className='secondPlanet '
+                src='images/planet2.png'
+                alt='planet(2)'
+              />
             </button>
-            <div className='collapse' id='secondPlanet'>
+            <div className='collapse ' id='secondPlanet'>
               <div className='planetText'>
                 <p>
                   Self-taught and always looking for the next project ahead and
@@ -58,7 +62,7 @@ export default function Header() {
             data-toggle='collapse'
             data-target='#thirdPlanet'
           >
-            <img src='images/globe.png' alt='globe' />
+            <img className='planets' src='images/globe.png' alt='globe' />
           </button>
           <div className='collapse' id='thirdPlanet'>
             <div className='planetText'>

@@ -26,7 +26,7 @@
 
   .planetText{
     padding: 30px;
-}
+ }
 
   .myP{
     font-size: 18px;
@@ -49,16 +49,21 @@
 
   }
 
-  .cardDeck{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 20px;
-}
+  .btnSmallScreen{
+    max-width: 500px;
+  }
 
-.planetsContainer{
-  display: grid;
-  grid-template-columns: 1fr;
-}
+ .col{
+  flex-basis: auto !important;
+ }
+
+ .secondPlanet{
+  margin-top: 125px;
+
+ }
+
+
+
 }
 
 .spacing h2{
@@ -117,10 +122,6 @@
     margin-top: 100px;
 }
 
-
-.planetsDiv {
-  margin-top: 100px;
-}
 
 .lastPlanet{
     width: 400px;
@@ -271,8 +272,11 @@
 }
 
 @media screen and (max-width: 600px) {
-
-
+  .cardDeck{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
 }
 
 .cardText{
