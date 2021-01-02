@@ -41,6 +41,13 @@
   margin-top: 30px;
 }
 
+@media screen and (max-width: 600px) {
+  .planetText{
+      padding: 30px;
+  }
+
+}
+
 .planetsDiv {
   margin-top: 100px;
 }
