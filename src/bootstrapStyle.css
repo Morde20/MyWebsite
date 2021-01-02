@@ -57,7 +57,7 @@
       padding: 30px;
   }
 
-
+}
 .planetsDiv {
   margin-top: 100px;
 }
@@ -115,6 +115,16 @@
     margin-top: 70px;
 }
 
+.myH2{
+  max-width: 500px;
+  margin: auto;
+}
+
+.myP{
+  max-width: 500px;
+  margin: auto;
+}
+
 .myImg:hover{
     animation: rotate-center 0.9s ease-in-out both;
 }
@@ -140,6 +150,41 @@
     padding-right: 2rem;
   }
 
+.iconJump:hover{
+  animation: jello-horizontal 0.9s both;
+}
+
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
 .carousel-control-prev-icon,.carousel-control-next-icon{
     padding: 16px;
 }
@@ -147,6 +192,11 @@
 .skillsImg{
     border-radius: 30px;
     width: 250px;
+
+}
+
+.skillsImg:hover{
+  animation: rotate-center 0.9s ease-in-out both;
 }
 
 .carouselList{
@@ -169,7 +219,6 @@
     }
 
 }
-
 
 .cardText{
     color: black;
