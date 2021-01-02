@@ -24,6 +24,10 @@
     font-size: 20px;
   }
 
+  .planetText{
+    padding: 30px;
+}
+
   .myP{
     font-size: 18px;
   }
@@ -39,6 +43,22 @@
   .iconJump{
     width: 10%;
   }
+
+  .planetText p{
+    font-size: 18px;
+
+  }
+
+  .cardDeck{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.planetsDiv{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 }
 
 .spacing h2{
@@ -92,24 +112,12 @@
     margin-top: 30px;
 }
 
-@media screen and (max-width: 600px) {
-  .planetText p{
-    font-size: 18px;
-
-  }
-
-}
 
 .planetsDiv{
     margin-top: 100px;
 }
 
-@media screen and (max-width: 600px) {
-  .planetText{
-      padding: 30px;
-  }
 
-}
 .planetsDiv {
   margin-top: 100px;
 }
@@ -263,11 +271,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .cardDeck{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
+
 
 }
 
