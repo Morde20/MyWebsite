@@ -55,7 +55,7 @@
     padding: 20px;
 }
 
-.planetsDiv{
+.planetsContainer{
   display: grid;
   grid-template-columns: 1fr;
 }

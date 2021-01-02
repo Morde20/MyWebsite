@@ -14,7 +14,7 @@ export default function Header() {
           friendship.
         </p>
       </div>
-      <div>
+      <div className='planetsContainer'>
         <div className='row planetsDiv'>
           <div className='col text-center'>
             <button
