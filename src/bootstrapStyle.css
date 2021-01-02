@@ -52,6 +52,16 @@
     margin-top: 100px;
 }
 
+@media screen and (max-width: 600px) {
+  .planetText{
+      padding: 30px;
+  }
+
+
+.planetsDiv {
+  margin-top: 100px;
+}
+
 .lastPlanet{
     width: 400px;
     margin: auto;
