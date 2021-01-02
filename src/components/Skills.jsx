@@ -11,50 +11,50 @@ export default function Skills() {
         <div className='carousel-inner'>
           <div className='carousel-item active'>
             <ul className='carouselList'>
-              <li>
+              <li className='liText'>
                 <h2 style={{ textDecoration: "underline" }}>Front-End</h2>
               </li>
-              <li>
+              <li className='liText'>
                 <p>Html</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>Css</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>Sass</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>Javascript</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>React</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>jQuery</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>WordPress</p>
               </li>
             </ul>
           </div>
           <div className='carousel-item'>
             <ul className='carouselList'>
-              <li>
+              <li className='liText'>
                 <h2 style={{ textDecoration: "underline" }}>Back-End</h2>
               </li>
-              <li>
+              <li className='liText'>
                 <p>Node</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>EJS</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>SQL & MongoDB With Mongoose</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>API's</p>
               </li>
-              <li>
+              <li className='liText'>
                 <p>Authentication & Security</p>
               </li>
             </ul>

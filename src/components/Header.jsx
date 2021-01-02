@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div className='container'>
-      <div>
+      <div className='openingDiv'>
         <h1>I'm Morde, A Web developer.</h1>
         <p className='pMarginTop'>
           Welcome To my website, have a look around, Check my story, skills and
@@ -18,11 +18,11 @@ export default function Header() {
         <div className='row planetsDiv'>
           <div className='col text-center'>
             <button
-              className='btn'
+              className='btn planets'
               data-toggle='collapse'
               data-target='#firstPlanet'
             >
-              <img className='planets' src='images/planet.png' alt='jupiter' />
+              <img className='' src='images/planet.png' alt='jupiter' />
             </button>
             <div className='collapse' id='firstPlanet'>
               <div className='planetText'>
@@ -35,15 +35,11 @@ export default function Header() {
           </div>
           <div className='col text-center'>
             <button
-              className='btn'
+              className='btn planets'
               data-toggle='collapse'
               data-target='#secondPlanet'
             >
-              <img
-                className='planets'
-                src='images/planet2.png'
-                alt='planet(2)'
-              />
+              <img src='images/planet2.png' alt='planet(2)' />
             </button>
             <div className='collapse' id='secondPlanet'>
               <div className='planetText'>
@@ -57,12 +53,12 @@ export default function Header() {
         </div>
         <div className='col text-center'>
           <button
-            className='btn'
+            className='btn extraPlanet'
             type='button'
             data-toggle='collapse'
             data-target='#thirdPlanet'
           >
-            <img className='planets' src='images/globe.png' alt='globe' />
+            <img src='images/globe.png' alt='globe' />
           </button>
           <div className='collapse' id='thirdPlanet'>
             <div className='planetText'>

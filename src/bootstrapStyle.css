@@ -5,8 +5,59 @@
     text-align: center;
 }
 
+.openingDiv h1{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .openingDiv h1{
+      font-size: 30px;
+      margin-top: 30px;
+  }
+
+  .openingDiv p{
+    font-size: 18px;
+  }
+
+  .spacing h2{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .myP{
+    font-size: 18px;
+  }
+
+  .liText p{
+    font-size: 18px;
+  }
+
+  .cardText{
+    font-size: 18px;
+  }
+
+  .iconJump{
+    width: 10%;
+  }
+}
+
+.spacing h2{
+  max-width: 500px;
+  margin: auto;
+}
+
+
+
 .pMarginTop{
     margin-top: 65px;
+}
+
+.planets{
+  margin-top: 80px;
+}
+
+.extraPlanet{
+  margin-top: 150px;
 }
 
 .planets:hover{
@@ -42,8 +93,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .planetText{
-      padding: 30px;
+  .planetText p{
+    font-size: 18px;
+
   }
 
 }
@@ -65,6 +117,10 @@
 .lastPlanet{
     width: 400px;
     margin: auto;
+}
+
+.lastPlanetMargin{
+  margin-top: 30px;
 }
 
 @keyframes move-twink-back {
@@ -113,11 +169,6 @@
 
 .bodyDiv{
     margin-top: 70px;
-}
-
-.myH2{
-  max-width: 500px;
-  margin: auto;
 }
 
 .myP{
@@ -228,7 +279,5 @@
 margin: 4px;
 }
 
-  
-  
-  
+
 
