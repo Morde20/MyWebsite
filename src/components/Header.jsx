@@ -26,7 +26,7 @@ export default function Header() {
             </button>
             <div className='collapse' id='firstPlanet'>
               <div className='planetText'>
-                <p>
+                <p className='lastPlanet'>
                   Full-Stack trained, I always believe in knowing all aspects of
                   a process.
                 </p>
@@ -47,7 +47,7 @@ export default function Header() {
             </button>
             <div className='collapse ' id='secondPlanet'>
               <div className='planetText'>
-                <p>
+                <p className='lastPlanet'>
                   Self-taught and always looking for the next project ahead and
                   to be a part of the next great idea!
                 </p>
