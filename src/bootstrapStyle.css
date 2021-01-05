@@ -288,8 +288,9 @@
     display: none;
   }
 
-  .cardTitle{
+  .cardTitle.card-title.h5{
     font-family: "Chilanka", cursive;
+    font-size: 18px;
   }
 
   .link{
