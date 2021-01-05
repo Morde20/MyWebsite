@@ -62,8 +62,6 @@
 
  }
 
-
-
 }
 
 .spacing h2{
@@ -271,21 +269,44 @@
     grid-gap: 30px;
 }
 
-@media screen and (max-width: 600px) {
-  .cardDeck{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 30px;
+.link{
+  margin: 4px;
   }
-}
 
 .cardText{
     color: black;
 }
 
-.link{
-margin: 4px;
+@media screen and (max-width: 600px) {
+  .cardDeck{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+  }
+
+  .cardText{
+    display: none;
+  }
+
+  .cardTitle{
+    font-family: "Chilanka", cursive;
+  }
+
+  .link{
+    max-width: 80px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .text-muted{
+    font-size: 9.5px;
+  }
+
 }
+
+
+
+
 
 
 

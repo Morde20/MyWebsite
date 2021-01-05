@@ -9,7 +9,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/drumkit.png' />
           <Card.Body>
-            <Card.Title>Drum Kit</Card.Title>
+            <Card.Title className='cardTitle'>Drum Kit</Card.Title>
             <Card.Text className='cardText'>
               Just make tunes with clicks or push the letters on the keyboard.
             </Card.Text>
@@ -18,7 +18,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/DrumKit'
@@ -35,7 +35,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/hangman.png' />
           <Card.Body>
-            <Card.Title>Hangman</Card.Title>
+            <Card.Title className='cardTitle'>Hangman</Card.Title>
             <Card.Text className='cardText'>
               Remember the hangman game? come play like the old times.
             </Card.Text>
@@ -44,7 +44,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/Hangman'
@@ -61,7 +61,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/symonsays.png' />
           <Card.Body>
-            <Card.Title>Symon Says</Card.Title>
+            <Card.Title className='cardTitle'>Symon Says</Card.Title>
             <Card.Text className='cardText'>
               A recreation of the popular game, with my touch.
             </Card.Text>
@@ -70,7 +70,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/SimonSays'
@@ -87,7 +87,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/dicegame.png' />
           <Card.Body>
-            <Card.Title>Dice Game</Card.Title>
+            <Card.Title className='cardTitle'>Dice Game</Card.Title>
             <Card.Text className='cardText'>
               Trying to make a decision? this could help.
             </Card.Text>
@@ -96,7 +96,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/DiceGame'
@@ -113,7 +113,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/socialwall.png' />
           <Card.Body>
-            <Card.Title>Social Wall</Card.Title>
+            <Card.Title className='cardTitle'>Social Wall</Card.Title>
             <Card.Text className='cardText'>
               Just write whatever comes to mind, Social Wall will keep it
               forever.
@@ -123,7 +123,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/socialWall'
@@ -142,7 +142,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/todolist.png' />
           <Card.Body>
-            <Card.Title>To Do List</Card.Title>
+            <Card.Title className='cardTitle'>To Do List</Card.Title>
             <Card.Text className='cardText'>
               Create your custom ToDo List to organize your life.
             </Card.Text>
@@ -151,7 +151,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/ToDoList'
@@ -170,7 +170,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/shopcatalog.png' />
           <Card.Body>
-            <Card.Title>Shop Catalog</Card.Title>
+            <Card.Title className='cardTitle'>Shop Catalog</Card.Title>
             <Card.Text className='cardText'>
               An example of a store with products and search engine.
             </Card.Text>
@@ -179,7 +179,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/ShopCatalog'
@@ -198,7 +198,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/keeperapp.png' />
           <Card.Body>
-            <Card.Title>Keeper App</Card.Title>
+            <Card.Title className='cardTitle'>Keeper App</Card.Title>
             <Card.Text className='cardText'>
               Create as many notes as you like.
             </Card.Text>
@@ -207,7 +207,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/StickyNotes'
@@ -224,7 +224,7 @@ export default function Portfolio() {
         <Card>
           <Card.Img variant='top' src='images/whethergiene.png' />
           <Card.Body>
-            <Card.Title>Weather Genie</Card.Title>
+            <Card.Title className='cardTitle'>Weather Genie</Card.Title>
             <Card.Text className='cardText'>
               Courious about the weather? Just enter a city name and the weather
               genie will help you.
@@ -234,7 +234,7 @@ export default function Portfolio() {
               className='link'
               variant='dark'
             >
-              See Project
+              Project
             </Button>
             <Button
               href='https://github.com/Morde20/WeatherGenie'

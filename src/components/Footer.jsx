@@ -3,7 +3,6 @@ import React from "react";
 export default function Footer() {
   return (
     <div className='spacing text-center'>
-      <hr className='hr-dotted spacing' />
       <h2 id='Contact' className='spacing'>
         I hope you enjoyed my work, if you did then get In touch with me!
       </h2>
