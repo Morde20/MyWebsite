@@ -183,6 +183,10 @@
   margin: auto;
 }
 
+.myImg{
+  width: 250px
+}
+
 .myImg:hover{
     animation: rotate-center 0.9s ease-in-out both;
 }
