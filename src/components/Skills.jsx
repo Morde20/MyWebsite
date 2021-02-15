@@ -57,6 +57,9 @@ export default function Skills() {
               <li className='liText'>
                 <p>Authentication & Security</p>
               </li>
+               <li className='liText'>
+                <p>Python</p>
+              </li>
             </ul>
           </div>
         </div>
